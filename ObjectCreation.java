@@ -21,8 +21,8 @@ public class ObjectCreation {
     public static void main(String[] args) {
         try {
             // Method 1: Using the 'new' keyword (simple method)
-            Student student1 = new Student("Jyoti", 25);
-            Student student2 = new Student("Komal", 22);
+            Student student1 = new Student("Nikita", 22);
+            Student student2 = new Student("Sakshi", 22);
 
             // Method 2: Using Class.forName() and newInstance() (reflection)
             Class<?> studentClass = Class.forName("Student");
